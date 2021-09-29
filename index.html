@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Virtual</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+      df-messenger {
+       --df-messenger-button-titlebar-color: #415E8B;
+      }
+    </style>
+    
+</head>
+
+<body>
+    <img src="img\GIF Zé Hulck Pow 540-825.gif" alt="Assistente virtual" class="center" />
+    <!--<iframe width="1280" height="720" src="https://www.powtoon.com/embed/e96Dk792wjC/" frameborder="0" allowfullscreen></iframe>-->
+    <footer>            
+      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger 
+            intent="WELCOME" 
+            intent="Menu_inicial" 
+            chat-title="Zé do Cartório Eleitoral"
+            agent-id="3673b51d-ca83-4c24-a1bf-68637c207742" 
+            language-code="pt-br" 
+            chat-icon='img\Z195169_Dialogflow.svg'
+        ></df-messenger>
+    </footer>
+</body>
+</html>
